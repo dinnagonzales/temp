@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Bellwethers';
+  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+
+/* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/photography.scss */
+.photography {
+  text-align: center;
+  padding-bottom: 15rem; }
+  /* line 7, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/photography.scss */
+  .photography hr {
+    border-color: #141a7e;
+    position: relative;
+    top: -3rem;
+    z-index: -1; }
+  /* line 13, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/photography.scss */
+  .photography .photography-header {
+    z-index: 100;
+    font-family: 'Bellwethers', 'Sacramento';
+    color: #141a7e;
+    width: 20rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    background-color: #f7f4e9; }
+  /* line 23, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/photography.scss */
+  .photography .columns {
+    padding: 0;
+    text-align: center; }
+    /* line 27, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/photography.scss */
+    .photography .columns figure {
+      width: auto; }

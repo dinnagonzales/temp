@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Bellwethers';
+  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+
+/* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+.home {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 4rem 0 10rem;
+  min-height: 38rem;
+  font-size: 1.2rem;
+  text-align: center;
+  text-align: center; }
+  /* line 13, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home .top {
+    margin-bottom: 2rem; }
+  /* line 16, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home .tech {
+    margin: 6rem 0; }
+    /* line 18, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+    .home .tech img {
+      width: 4rem;
+      margin: 1rem 2rem; }
+  /* line 23, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home .hello {
+    text-align: left; }
+    /* line 25, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+    .home .hello .available {
+      text-align: center;
+      background-color: #000;
+      color: #ffffff;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      padding: 0.3rem; }
+    /* line 34, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+    .home .hello .find {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      margin: -0.4rem 0 0 0;
+      color: #141a7e;
+      text-align: center; }
+      /* line 41, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+      .home .hello .find .icon {
+        cursor: pointer;
+        width: 1rem;
+        display: inline-block;
+        margin: 0 0.5rem;
+        fill: #141a7e; }
+      /* line 48, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+      .home .hello .find .icon:hover {
+        fill: #000; }
+  /* line 53, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home h5 {
+    font-size: 8rem;
+    font-family: 'Bellwethers', 'Sacramento';
+    color: #141a7e; }
+  /* line 59, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home .info {
+    max-width: 50rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase; }
+    /* line 65, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+    .home .info .columns {
+      cursor: pointer;
+      text-align: center;
+      border: 1px solid #d7d7d7;
+      padding: 1rem;
+      color: #141a7e; }
+      /* line 72, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+      .home .info .columns .icon {
+        width: 6rem;
+        margin: 0 auto;
+        fill: #141a7e;
+        transition: width 0.2s ease-out, fill 0.2s ease-out; }
+    /* line 90, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+    .home .info .columns:hover .icon {
+      width: 6.4rem;
+      fill: #000; }
+    /* line 96, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+    .home .info img {
+      width: 1.2rem;
+      margin-top: -0.2rem;
+      margin-left: 1rem;
+      margin-right: 2rem; }

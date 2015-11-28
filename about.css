@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Bellwethers';
+  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+
+/* line 3, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+.about {
+  margin: 0 auto;
+  max-width: 60rem;
+  height: 38rem;
+  text-align: center; }
+  /* line 8, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+  .about .header {
+    font-size: 3rem;
+    font-family: 'Bellwethers', 'Sacramento'; }
+  /* line 12, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+  .about .icon {
+    width: 3rem;
+    margin: 0 auto; }
