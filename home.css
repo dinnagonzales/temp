@@ -85,3 +85,22 @@
       margin-top: -0.2rem;
       margin-left: 1rem;
       margin-right: 2rem; }
+  /* line 104, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home .connect, .home .learn {
+    border: 1px solid #141a7e;
+    border-radius: 0.2rem;
+    padding: 0.4rem 0; }
+  /* line 109, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home .learn {
+    cursor: pointer;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+  /* line 120, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home .learn:hover {
+    color: #ffffff;
+    background-color: #141a7e; }
+    /* line 123, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+    .home .learn:hover .icon {
+      fill: #ffffff; }
+  /* line 127, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
+  .home .connect {
+    border: none; }

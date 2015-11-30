@@ -2,17 +2,58 @@
   font-family: 'Bellwethers';
   src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
 
-/* line 3, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+/* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
 .about {
+  padding-top: 1rem;
   margin: 0 auto;
   max-width: 60rem;
   height: 38rem;
-  text-align: center; }
-  /* line 8, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+  text-align: center;
+  padding-bottom: 60rem; }
+  /* line 11, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
   .about .header {
     font-size: 3rem;
-    font-family: 'Bellwethers', 'Sacramento'; }
-  /* line 12, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+    font-family: 'Bellwethers', 'Sacramento';
+    color: #141a7e; }
+  /* line 16, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
   .about .icon {
     width: 3rem;
-    margin: 0 auto; }
+    margin: 0 auto;
+    fill: #141a7e; }
+  /* line 21, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+  .about p {
+    text-indent: 1rem;
+    text-align: justify;
+    text-justify: inter-word; }
+  /* line 26, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+  .about .connect {
+    margin: 0 auto;
+    max-width: 18rem;
+    color: #141a7e;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding-bottom: 5rem; }
+    /* line 34, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+    .about .connect > a > div {
+      color: #141a7e;
+      text-align: left;
+      border-bottom: 1px dotted #000;
+      height: 3rem;
+      padding: 1rem 1rem 3rem; }
+      /* line 40, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+      .about .connect > a > div .icon {
+        position: relative;
+        top: 0.3rem;
+        margin-right: 1rem;
+        display: inline-block;
+        width: 1.5rem; }
+    /* line 48, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+    .about .connect > a > div:hover {
+      color: #000; }
+      /* line 50, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+      .about .connect > a > div:hover .icon {
+        fill: #000; }
+  /* line 55, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
+  .about .text {
+    padding-bottom: 5rem; }

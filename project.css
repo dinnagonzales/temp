@@ -2,50 +2,50 @@
 .project {
   margin: 1rem 0 0.5rem;
   padding: 1.4rem;
-  min-height: 40rem;
-  overflow: auto;
+  height: 45rem;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 0.1rem;
   border: 1px solid #d7d7d7;
   position: relative; }
-  /* line 13, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+  /* line 12, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
   .project .project-title {
     min-height: 4rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     color: #141a7e; }
-  /* line 20, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+  /* line 19, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
   .project .description {
     padding: 0 0.4rem;
-    text-align: left;
+    text-align: justify;
     text-indent: 2rem;
-    margin: 1rem 0 0 0;
+    margin: 2rem 0 0 0;
     font-size: 1rem;
     color: #000;
-    font-size: 0.9rem; }
-    /* line 28, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+    font-size: 0.9rem;
+    text-justify: inter-word; }
+    /* line 29, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
     .project .description span {
       display: inline-block; }
-  /* line 32, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+  /* line 33, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
   .project .tech {
     color: #000;
     position: absolute;
     bottom: 0.3rem;
     text-align: left;
     font-size: 0.8rem; }
-    /* line 38, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+    /* line 39, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
     .project .tech span {
       margin-right: 0.2rem;
       font-weight: bold; }
-  /* line 44, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+  /* line 45, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
   .project > .links {
     height: 5rem;
     padding: 1rem 0;
     text-align: right; }
-    /* line 49, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+    /* line 50, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
     .project > .links .goTo {
       padding: 0.3rem 0 0.5rem 0; }
-      /* line 53, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+      /* line 54, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
       .project > .links .goTo a {
         text-decoration: none;
         text-transform: uppercase;
@@ -54,15 +54,37 @@
         position: relative;
         left: 0;
         transition: left 0.2s ease-out; }
-      /* line 66, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+      /* line 67, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
       .project > .links .goTo a:hover {
         left: 0.4rem; }
-    /* line 70, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+    /* line 72, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+    .project > .links .grey {
+      cursor: auto;
+      color: #d7d7d7;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      color: #d7d7d7;
+      position: relative;
+      left: 0; }
+      /* line 80, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+      .project > .links .grey > .icon {
+        fill: #d7d7d7; }
+    /* line 85, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
     .project > .links .goTo:first-child {
       border-bottom: 1px solid #141a7e; }
-    /* line 76, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+    /* line 91, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
     .project > .links .icon {
       fill: #141a7e;
       display: inline-block;
       width: 1.7rem;
       margin-left: 1rem; }
+  /* line 98, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/project.scss */
+  .project .wip {
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #000;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    margin: 1rem auto; }
