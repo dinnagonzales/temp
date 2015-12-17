@@ -1,26 +1,20 @@
 @-webkit-keyframes hang {
-  /* line 2, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
   50% {
     -webkit-transform: translateY(3px);
     transform: translateY(3px); }
-
-  /* line 7, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
   100% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px); } }
 
 @keyframes hang {
-  /* line 14, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
   50% {
     -webkit-transform: translateY(3px);
     transform: translateY(3px); }
-
-  /* line 19, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
   100% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px); } }
 
-/* line 24, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
+/* line 24, stdin */
 .hang {
   -webkit-transform: translateY(6px);
   transform: translateY(6px);

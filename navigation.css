@@ -1,4 +1,4 @@
-/* line 3, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+/* line 3, stdin */
 .page-navigation {
   margin-top: 0.4rem;
   margin-bottom: 1rem;
@@ -8,28 +8,28 @@
   letter-spacing: 0.5rem;
   border-top: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7; }
-  /* line 13, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 13, stdin */
   .page-navigation .row {
     max-width: 60rem; }
-  /* line 17, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 17, stdin */
   .page-navigation li {
     list-style-type: none;
     padding: 0;
     margin: 0.2rem 0.2rem;
     display: inline-block; }
-  /* line 23, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 23, stdin */
   .page-navigation span {
     font-size: 0.75rem;
     cursor: pointer;
     transition: color 0.2s ease-out, font-size 0.2s ease-out; }
-  /* line 35, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 35, stdin */
   .page-navigation span:hover {
-    font-size: 0.8rem;
+    font-size: 0.80rem;
     color: #141a7e; }
-  /* line 39, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 39, stdin */
   .page-navigation a {
     color: #000; }
-  /* line 42, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 42, stdin */
   .page-navigation .icon {
     width: 1rem;
     display: inline-block;
@@ -37,17 +37,19 @@
     top: 0.2rem;
     left: -0.4rem; }
 
-/* line 51, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+/* line 51, stdin */
 .mobile-navigation a {
   color: #141a7e; }
-/* line 55, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+
+/* line 55, stdin */
 .mobile-navigation li {
   list-style-type: none; }
-  /* line 57, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 57, stdin */
   .mobile-navigation li p {
     font-size: 0.7rem;
     text-transform: uppercase; }
-/* line 62, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+
+/* line 62, stdin */
 .mobile-navigation .columns {
   cursor: pointer;
   border: 1px solid #d7d7d7;
@@ -55,17 +57,19 @@
   padding: 1rem 0 0 0;
   color: #141a7e;
   transition: color 0.2s ease-out, background-color 0.2s ease-out; }
-/* line 77, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+
+/* line 77, stdin */
 .mobile-navigation .columns:hover {
   background: #141a7e;
   color: #ffffff; }
-  /* line 80, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 80, stdin */
   .mobile-navigation .columns:hover a {
     color: #ffffff; }
-  /* line 83, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+  /* line 83, stdin */
   .mobile-navigation .columns:hover .icon {
     fill: #ffffff; }
-/* line 87, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
+
+/* line 87, stdin */
 .mobile-navigation .icon {
   fill: #141a7e;
   width: 2.5rem;

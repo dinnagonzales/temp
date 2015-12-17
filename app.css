@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Bellwethers';
-  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+  src: url("./assets/fonts/Bellwethers-Regular.woff") format("woff"); }
 
 /* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
 header.page-header {
-  background: url('./assets/flowers.png');
+  background: url("./assets/flowers.png");
   background-size: 1200px 160px;
   background-repeat: no-repeat;
   background-position: top center;
@@ -80,7 +80,7 @@ footer {
     transition: color 0.2s ease-out, font-size 0.2s ease-out; }
   /* line 35, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
   .page-navigation span:hover {
-    font-size: 0.8rem;
+    font-size: 0.80rem;
     color: #141a7e; }
   /* line 39, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
   .page-navigation a {
@@ -96,6 +96,7 @@ footer {
 /* line 51, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
 .mobile-navigation a {
   color: #141a7e; }
+
 /* line 55, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
 .mobile-navigation li {
   list-style-type: none; }
@@ -103,6 +104,7 @@ footer {
   .mobile-navigation li p {
     font-size: 0.7rem;
     text-transform: uppercase; }
+
 /* line 62, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
 .mobile-navigation .columns {
   cursor: pointer;
@@ -111,6 +113,7 @@ footer {
   padding: 1rem 0 0 0;
   color: #141a7e;
   transition: color 0.2s ease-out, background-color 0.2s ease-out; }
+
 /* line 77, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
 .mobile-navigation .columns:hover {
   background: #141a7e;
@@ -121,6 +124,7 @@ footer {
   /* line 83, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
   .mobile-navigation .columns:hover .icon {
     fill: #ffffff; }
+
 /* line 87, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/navigation.scss */
 .mobile-navigation .icon {
   fill: #141a7e;
@@ -129,7 +133,7 @@ footer {
 
 @font-face {
   font-family: 'Bellwethers';
-  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+  src: url("./assets/fonts/Bellwethers-Regular.woff") format("woff"); }
 
 /* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/home.scss */
 .home {
@@ -236,7 +240,7 @@ footer {
 
 @font-face {
   font-family: 'Bellwethers';
-  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+  src: url("./assets/fonts/Bellwethers-Regular.woff") format("woff"); }
 
 /* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/projects.scss */
 .projects {
@@ -285,7 +289,7 @@ footer {
     padding: 0 0.4rem;
     text-align: justify;
     text-indent: 2rem;
-    margin: 2rem 0 0 0;
+    margin: 2rem  0 0 0;
     font-size: 1rem;
     color: #000;
     font-size: 0.9rem;
@@ -447,7 +451,7 @@ footer {
 
 @font-face {
   font-family: 'Bellwethers';
-  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+  src: url("./assets/fonts/Bellwethers-Regular.woff") format("woff"); }
 
 /* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/photography.scss */
 .photography {
@@ -478,23 +482,17 @@ footer {
       width: auto; }
 
 @-webkit-keyframes hang {
-  /* line 2, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
   50% {
     -webkit-transform: translateY(3px);
     transform: translateY(3px); }
-
-  /* line 7, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
   100% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px); } }
 
 @keyframes hang {
-  /* line 14, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
   50% {
     -webkit-transform: translateY(3px);
     transform: translateY(3px); }
-
-  /* line 19, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/animation.scss */
   100% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px); } }
@@ -518,7 +516,7 @@ footer {
 
 @font-face {
   font-family: 'Bellwethers';
-  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+  src: url("./assets/fonts/Bellwethers-Regular.woff") format("woff"); }
 
 /* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/about.scss */
 .about {
@@ -576,29 +574,29 @@ footer {
   .about .text {
     padding-bottom: 5rem; }
 
-/* line 12, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/app.scss */
+/* line 12, stdin */
 body {
   font-family: 'Lato', sans-serif;
   background-color: #f7f4e9; }
-  /* line 16, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/app.scss */
+  /* line 16, stdin */
   body a {
     cursor: pointer; }
-  /* line 19, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/app.scss */
+  /* line 19, stdin */
   body h1 {
     font-size: 6.5rem; }
-  /* line 22, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/app.scss */
+  /* line 22, stdin */
   body h2 {
     font-size: 6rem; }
-  /* line 25, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/app.scss */
+  /* line 25, stdin */
   body h3 {
     font-size: 4.5rem; }
-  /* line 28, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/app.scss */
+  /* line 28, stdin */
   body h4 {
     font-size: 3rem; }
-  /* line 31, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/app.scss */
+  /* line 31, stdin */
   body h5 {
     font-size: 2rem; }
 
-/* line 36, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/app.scss */
+/* line 36, stdin */
 .row {
   max-width: 70rem; }

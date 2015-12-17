@@ -1,25 +1,25 @@
 @font-face {
   font-family: 'Bellwethers';
-  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+  src: url("./assets/fonts/Bellwethers-Regular.woff") format("woff"); }
 
-/* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/projects.scss */
+/* line 4, stdin */
 .projects {
   text-align: center;
   margin-top: 3rem;
   padding-bottom: 15rem; }
-  /* line 8, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/projects.scss */
+  /* line 8, stdin */
   .projects p {
     margin: 1rem auto;
     max-width: 40rem;
     font-size: 0.9rem;
     letter-spacing: 0.1rem; }
-  /* line 14, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/projects.scss */
+  /* line 14, stdin */
   .projects hr {
     border-color: #141a7e;
     position: relative;
     top: -3rem;
     z-index: -1; }
-  /* line 20, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/projects.scss */
+  /* line 20, stdin */
   .projects .dev-header {
     font-size: 2rem;
     z-index: 100;

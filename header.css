@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Bellwethers';
-  src: url('./assets/fonts/Bellwethers-Regular.woff') format('woff'); }
+  src: url("./assets/fonts/Bellwethers-Regular.woff") format("woff"); }
 
-/* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+/* line 4, stdin */
 header.page-header {
-  background: url('./assets/flowers.png');
+  background: url("./assets/flowers.png");
   background-size: 1200px 160px;
   background-repeat: no-repeat;
   background-position: top center;
   padding: 1rem;
   text-align: center; }
-  /* line 11, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+  /* line 11, stdin */
   header.page-header img {
     cursor: pointer;
     height: 150px;
     margin: 0 auto; }
 
-/* line 18, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+/* line 18, stdin */
 footer {
   font-size: 0.4rem;
   position: fixed;
@@ -28,20 +28,20 @@ footer {
   padding: 0.4rem;
   letter-spacing: 0.3rem;
   text-transform: uppercase; }
-  /* line 30, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+  /* line 30, stdin */
   footer > .row {
     max-width: none; }
-  /* line 33, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+  /* line 33, stdin */
   footer .links {
     text-align: center; }
-  /* line 36, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+  /* line 36, stdin */
   footer .name {
     padding: 0.5rem 0 0 0;
     text-align: center; }
-  /* line 40, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+  /* line 40, stdin */
   footer .bible {
     text-align: left; }
-  /* line 44, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+  /* line 44, stdin */
   footer .icon {
     fill: #ffffff;
     display: inline-block;
@@ -50,6 +50,6 @@ footer {
     margin-right: 1rem;
     position: relative;
     top: 0.2rem; }
-  /* line 53, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/header.scss */
+  /* line 53, stdin */
   footer .icon:hover {
     top: -0.2rem; }

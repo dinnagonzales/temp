@@ -1,4 +1,4 @@
-/* line 4, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+/* line 4, stdin */
 .design-tab p {
   text-align: center;
   margin: 3rem auto 0;
@@ -6,17 +6,17 @@
   font-size: 0.9rem;
   letter-spacing: 0.1rem; }
 
-/* line 12, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+/* line 12, stdin */
 .design-projects {
   padding: 1rem 0 0 0;
   overflow: auto; }
-  /* line 16, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  /* line 16, stdin */
   .design-projects hr {
     border-color: #141a7e;
     position: relative;
     top: -3rem;
     z-index: -1; }
-  /* line 22, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  /* line 22, stdin */
   .design-projects .design-header {
     text-align: center;
     z-index: 100;
@@ -26,7 +26,7 @@
     font-size: 2rem;
     margin: 0 auto;
     background-color: #f7f4e9; }
-  /* line 32, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  /* line 32, stdin */
   .design-projects .proj {
     text-align: center;
     position: relative;
@@ -37,17 +37,17 @@
     margin-bottom: 2rem;
     height: 34.5rem;
     overflow: hidden; }
-    /* line 42, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+    /* line 42, stdin */
     .design-projects .proj img {
       border: 1px solid #d7d7d7;
       margin-bottom: 1rem; }
-    /* line 47, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+    /* line 47, stdin */
     .design-projects .proj .view {
       cursor: pointer;
       position: absolute;
       top: 1rem;
       right: 1.6rem; }
-      /* line 53, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+      /* line 53, stdin */
       .design-projects .proj .view #open {
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
@@ -57,15 +57,15 @@
         position: relative;
         top: 0.5rem;
         left: 0.5rem; }
-  /* line 65, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  /* line 65, stdin */
   .design-projects .view.rotate > #open {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg); }
-  /* line 69, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  /* line 69, stdin */
   .design-projects .proj.open, .design-projects .proj.design {
     overflow: auto;
     height: auto; }
-  /* line 73, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  /* line 73, stdin */
   .design-projects .design figcaption {
     color: #141a7e;
     text-transform: uppercase;
@@ -73,16 +73,16 @@
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
     text-align: center; }
-  /* line 81, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+  /* line 81, stdin */
   .design-projects .details {
     text-align: left;
     padding-left: 1rem; }
-    /* line 85, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+    /* line 85, stdin */
     .design-projects .details h5 {
       letter-spacing: 0.3rem;
       font-size: 1.9rem;
       color: #141a7e; }
-    /* line 91, /Users/dinnagonzales/Desktop/Portfolio 2.0/src/sass/design-projects.scss */
+    /* line 91, stdin */
     .design-projects .details p {
       margin: 1rem auto;
       font-size: 1rem; }
